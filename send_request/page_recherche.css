@@ -1,0 +1,166 @@
+nav .nav-middle a{
+    text-decoration: none;
+    color:#333;
+    padding:10px;
+    margin:0px 10px;
+}
+
+nav .nav-middle a.active{
+    color:royalblue;
+    position:relative;
+}
+
+nav .nav-middle a.active::after{
+    content:'';
+    width:100%;
+    height:3px;
+    position:absolute;
+    bottom:0;
+    left:0;
+    background:royalblue;
+}
+
+nav .nav-middle a > i{
+    font-size: 25px;
+}
+
+nav .nav-right .profile, .container .left-panel .profile{
+    background: url('./images/Female_students_White_background_Brown_haired_581560_640x960.jpg');
+    height:30px;
+    width:30px;
+    background-size: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+nav .nav-right a{
+    text-decoration: none;
+    color: #333;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #eee;
+    display: grid;
+    place-items: center;
+    margin-left: 1em;
+}
+
+nav .nav-left, nav .nav-right{
+    display:flex;
+    align-items: center;
+}
+
+nav .nav-left > img{
+    width:40px;
+}
+
+nav .nav-left > input{
+    height:40px;
+    padding:5px 10px;
+    border:none;
+    border-radius: 25px;
+    outline:none;
+    background-color: #eee;
+    margin-left: 10px;
+}
+
+body {
+    margin: 0 0;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .nav-middle{
+
+    display:flex;
+    align-items:flex-end;
+    padding-bottom: 5px;
+}
+
+nav{
+
+    height:70px;
+    width:100%;
+    padding: 0 2rem;
+    display:flex;
+    justify-content: space-between;
+    background-color: #fff;
+    box-shadow: 0px 1px 3px #ccc;
+    position:sticky;
+    top:0;
+    z-index:99;
+}
+.container .search-container {
+ 
+    align-items: center;
+    width: 700px;
+    background-color: #eee;
+    border-radius: 10px;
+ 
+}
+
+
+.search-container .profile-informations img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    transform: translateY(10px);
+    margin-right: 10px;
+}
+.container {
+    display: grid;
+    justify-content: center;
+    align-items: center; 
+    height: 180px;
+
+}
+
+.search-container .profile-informations .search-top .index .informations{
+    height: 50px;
+    
+}
+
+.search-container .search-top .profile-informations .index .informations  .commun-friends {
+    transform: translateY(-15px);
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+.search-container .search-top .profile-informations .index .informations  p {
+    margin-top: 10px;
+}
+
+.search-container .search-top .profile-informations .index .informations {
+    margin: 0 10px;
+}
+
+.search-container .search-top .profile-informations .index .informations {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.container .search-container {
+    padding: 0 5px;
+    max-height: fit-content;
+
+}
+.search-container .search-top .profile-informations .index {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-container .search-top .profile-informations .index {
+    align-items: center;
+}
+
+
+#span {
+
+}
+
+
+
+
+
+

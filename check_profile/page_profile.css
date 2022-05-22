@@ -1,0 +1,300 @@
+
+.cover-container {
+    padding: 20px 15%;
+    background: #fff;
+}
+
+.cover-img {
+    width: 100%;
+    height: 350px;
+    border-radius: 6px;
+    margin-bottom: 14px;
+}
+
+
+
+div div div div img {
+    width: 50px;
+    height: 50px;
+}
+
+
+div div form {
+    
+    display: flexbox;
+    margin-top: 10px;
+
+}
+
+.cover-container .profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.cover-container .profile {
+    display: flex;
+
+}
+
+
+.cover-container .profile .profile-informations {
+    display: flex;
+}
+
+.cover-container .profile .profile-informations h2 {
+    font-size: 30px;
+    margin: block;
+}
+
+div div div .action:hover  {
+    
+    border-radius: 20px;
+    cursor: pointer;
+    background: #ccc;
+    transition: .3s ease-in;
+}
+
+
+nav{
+
+    height:70px;
+    width:100%;
+    padding: 0 2rem;
+    display:flex;
+    justify-content: space-between;
+    background-color: #fff;
+    box-shadow: 0px 1px 3px #ccc;
+    position:sticky;
+    top:0;
+    z-index:99;
+}
+
+.posts {
+    justify-content: center;
+    display: grid;
+    align-items: center;
+}
+
+
+.container{
+    background:#fff;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.posts .post .post-top .dp img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+.post{
+    border-radius: 15px;
+    box-shadow: 0px 1px 3px #ccc;
+    justify-content: center;
+    width:550px;
+    background:#eee;
+    padding:10px;
+    margin:10px;
+}
+
+.post .post-top{
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    padding:10px;
+}
+
+.post .post-top .post-info{
+    margin-left:10px;    
+    font-weight: bold;
+}
+
+.post .post-top .post-info .name{
+    cursor:pointer;
+    font-size:16px;
+}
+
+.post .post-top .post-info .time{
+    font-size:12px;
+    cursor:pointer;
+}
+
+.posts .post .post-bottom .action:hover {
+    background-color: #ccc;
+    border-radius: 20px;
+    padding:10px;
+    transition: .3s ease-in;
+    cursor: pointer;
+}
+
+.post .post-top i{
+    margin-left:auto;
+    cursor: pointer;
+}
+
+.post .post-top > input{
+    height:40px;
+    padding:5px 10px;
+    border-radius:25px;
+    outline:none;
+    border:none;
+    flex:1;
+    background:#eee;
+    margin-left:10px;
+}
+
+.post .post-content{
+    font-size:16px;
+    font-weight:normal;
+    padding:10px;
+}
+
+.post .post-content > img{
+    width:100%;
+    margin:5px 0px;
+}
+
+.post .post-bottom{
+    box-shadow: 1px solid #ddd;
+    display:flex;
+    justify-content: space-between;
+    padding:5px 5px 0px 5px;
+}
+
+
+
+
+.post .post-content {
+    margin: 10px 0;
+}
+
+
+.post.create .post-bottom > .action{
+    color:#d74;
+}
+
+.covert-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cover-members div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.members {
+    width: fit-content;
+    height: fit-content;
+}
+
+nav .nav-middle{
+    display:flex;
+    align-items:flex-end;
+    padding-bottom: 5px;
+}
+
+nav .nav-middle a{
+    text-decoration: none;
+    color:#333;
+    padding:10px;
+    margin:0px 10px;
+}
+
+nav .nav-middle a.active{
+    color:royalblue;
+    position:relative;
+}
+
+nav .nav-middle a.active::after{
+    content:'';
+    width:100%;
+    height:3px;
+    position:absolute;
+    bottom:0;
+    left:0;
+    background:royalblue;
+}
+
+nav .nav-middle a > i{
+    font-size: 25px;
+}
+
+nav .nav-right .profile, .container .left-panel .profile{
+    background: url('./images/Female_students_White_background_Brown_haired_581560_640x960.jpg');
+    height:30px;
+    width:30px;
+    background-size: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+nav .nav-right a{
+    text-decoration: none;
+    color:#333;
+    height:40px;
+    width:40px;
+    border-radius: 50%;
+    background:#eee;
+    display:grid;
+    place-items: center;
+    margin-left:1rem;
+}
+
+nav .nav-left, nav .nav-right{
+    display:flex;
+    align-items: center;
+}
+
+nav .nav-left > img{
+    width:40px;
+}
+
+nav .nav-left > input{
+    height:40px;
+    padding:5px 10px;
+    border:none;
+    border-radius: 25px;
+    outline:none;
+    background-color: #eee;
+    margin-left: 10px;
+}
+
+body {
+    margin: 0 0;
+}
+
+
+.cover-container .wcyd {
+
+    align-self: flex-end;
+    justify-self: end;
+    display: flex;
+    
+}
+
+.cover-container .wcyd div {
+    padding: 10px;
+    margin: 0 0 20px 0;
+}
+
+.cover-container .wcyd div i{
+    margin-right: 10px;
+}
+
+.cover-container .wcyd div:hover {
+    cursor: pointer;
+    background-color: #ccc;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+
+
+

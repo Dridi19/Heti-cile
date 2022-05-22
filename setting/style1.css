@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body{
+    min-width: 700px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 1500px;
+    background-image: linear-gradient(to bottom , #ffffff , #e0e0e0);
+
+}
+nav{
+    display: block;
+    height:70px;
+    width:100%;
+    padding: 0 2rem;
+    display:flex;
+    justify-content: space-between;
+    background-color: #fff;
+    box-shadow: 0px 1px 3px #ccc;
+    position:fixed;
+    top:0;
+    z-index:99;
+}
+
+nav .nav-left, nav .nav-right{
+    display:flex;
+    align-items: center;
+}
+
+nav .nav-left > img{
+    width:40px;
+}
+
+nav .nav-left > input{
+    height:40px;
+    padding:5px 10px;
+    border:none;
+    border-radius: 25px;
+    outline:none;
+    background-color: #eee;
+    margin-left: 10px;
+}
+
+nav .nav-middle{
+    display:flex;
+    align-items:flex-end;
+    padding-bottom: 5px;
+}
+
+nav .nav-middle a{
+    text-decoration: none;
+    color:#333;
+    padding:10px;
+    margin:0px 10px;
+}
+
+nav .nav-middle a.active{
+    color:royalblue;
+    position:relative;
+}
+
+nav .nav-middle a.active::after{
+    content:'';
+    width:100%;
+    height:3px;
+    position:absolute;
+    bottom:0;
+    left:0;
+    background:royalblue;
+}
+
+nav .nav-middle a > i{
+    font-size: 25px;
+}
+
+nav .nav-right .profile, .container .left-panel .profile{
+    background: url('./images/Female_students_White_background_Brown_haired_581560_640x960.jpg');
+    height:30px;
+    width:30px;
+    background-size: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+nav .nav-right a{
+    text-decoration: none;
+    color:#333;
+    height:40px;
+    width:40px;
+    border-radius: 50%;
+    background:#eee;
+    display:grid;
+    place-items: center;
+    margin-left:1rem;
+}
+
+nav .nav-right a > i{
+    font-size:18px;
+}
+
+.container{
+    transform: translateY(-20px);
+    max-width: 1000px;
+    width: 100%;
+    background: #fff;
+    padding: 25px 30px ;
+    border-radius: 10px ;
+    box-shadow: 0 0 10px -10px black;
+
+}
+.container .title2{
+    margin-bottom: 25px;
+    font-size: 25px;
+    font-weight: 400;
+    position: relative;
+}
+.container .title2::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 80px;
+    background: rgb(87, 0, 0);
+}
+.conntainer form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+form .user-details .input-box{
+    margin-bottom: 25px;
+    width: calc(100% / 2 * 20px);
+}
+.user-details .input-box .details{
+    display: block;
+    font-weight: 400;
+    margin-bottom: 4px;
+}
+.user-details .input-box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: none;
+    padding-left: 15px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 8px -1px #8f8f8f ;
+
+}
+.user-details .input-box input:focus,
+.user-details .input-box input:valid{
+    border-color: #5c5c5c;
+}
+.img{
+    display: flex;
+    align-items: center;
+    padding: 25px;
+}
+.imgPro{
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 ;
+    border: 5px solid #5c5c5c;
+    padding: 0 ;
+    background-color: none ;
+    box-shadow:   0 0 20px -10px  rgb(109, 109, 109);
+}
+.btnPhoto{
+    display: flex;
+    margin: 10px auto 0 ;
+    font-weight: lighter;
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    padding: 10px 15px;
+    background-image: linear-gradient(to right , #DDD6FF , #CCC2FF) ;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px -5px #0E0052;
+}
+.btnPhoto:hover{
+    background-image: linear-gradient(to right , #EEEBFF , #DDD6FF) ;
+}
+.button{
+    margin: 10px auto 0 ;
+    font-weight: lighter;
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    padding: 10px 15px;
+    background-image: linear-gradient(to left , #058f00 , #05A300);
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 2px #023D00;
+}
+.button:hover{
+    background-image: linear-gradient(to left ,#05A300 ,#06B800);
+}
+.supp{
+    padding-top: 25px;
+
+}
+.input-supp{
+    display: block;
+    font-weight: 400;
+    margin-bottom: 4px;
+    padding: 15px;
+    padding-left: 5px;
+}
+#input-supp{
+    width: 600px;
+    height: 50px;
+    outline: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: none;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 8px -1px #8f8f8f ;
+}
+.suppQ{
+    padding: 20px;
+    padding-left: 10px;
+}
+
+.check-box{
+    padding: 10px;
+}
+.supp .input-supp{
+    display: block;
+    font-weight: 400;
+    margin-bottom: 4px;
+}
